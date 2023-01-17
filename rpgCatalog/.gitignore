@@ -1,4 +1,5 @@
 /venv
 /.direnv
-.envrc
+**/.envrc
 **/__pycache__/**
+**/.python-version
