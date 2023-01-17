@@ -7,3 +7,9 @@ class Character:
         self.health = health
         self.level = level
         self.alive = alive
+
+
+def hit(target, damage: int):
+    if damage >= target.health:
+        target.alive = False
+    target.health -= damage
